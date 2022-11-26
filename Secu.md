@@ -3,13 +3,12 @@ L'informatique, bien qu'elle ait facilité le travail des humains,
 rencontre elle aussi des menaces. Cette dernière fait face à des attaques et à des types d'attaque multiples à savoir:
 |Attaques informatiques            |    Types d'attaques informatiques             |
 |----------------|-----------------|
-|Virus informatiques|Attaque par déni de service (DoS/DDoS)|
-|Vers informatiques|Reniflage (sniffing)               |
-|Logiciels espions       | Porte dérobée (backdoor)  |
-| Ransomwares                       |   Mystification (spoofing)                    |
-|Botnets               |Attaque par rebond (bounce attack)|
-|Chevaux de troie|Attaque de l’homme du milieu (man-in-the-middle)|
-|Robots informatiques|Le défacement|
+|Attaque TCP SYN flood, Attaque teardrop, Attaque smurf, Ping of death, Botnets|Attaque par déni de service (DoS/DDoS)|
+|Vers, virus, bombe logique, chevaux de troie|Attaque par logiciels malveillants|
+| Écoute clandestine passive, écoute clandestine active | Attaque par écoute illicite  |
+| Les attaques par force brute, les attaques par dictionnaire                       |   Attaque par mot de passe                  |
+|Detournement de session, Usurpation d'IP, Relecture|Attaque de l’homme du milieu (man-in-the-middle)|
+||Attaque par injection SQL|
 
   Une base de données est un ensemble d'informations qui est organisé de manière à être facilement accessible, géré et mis à jour. Cette dernière fait face à des attaques. Les attaques et les types d'attaque dont elle fait face sont multiples. Voici les attaques et les types d'attaque dont une base de données fait face:
   Attaque par déni de service (DoS/DDoS), Attaque par injection SQL
@@ -30,11 +29,11 @@ Les fichiers de données contiennent des informations de deux types :
 Le dictionnaire de données et de travail:  
  Les données des utilisateurs,  
  La lecture de ces fichiers de données est faite à l'aide des * processus utilisateurs tandis que l'écriture est assuré par le processus DBWR (Database Writer)  
-Extension des fichiers PostgreSQL :
+Extension des fichiers PostgreSQL :  
 .psql  
 Les fichiers de données d’Oracle se trouvent :    
 Extension des fichiers Oracle :    
-       .dbf  
+       .dbf    
 Les fichiers de données Ms SQL server se trouvent :    
 Au minimum, chaque base de données SQL Server a deux fichiers de système d’exploitation : un fichier de données et un fichier journal. Les fichiers de données contiennent des données et des objets tels que des tables, des index, des procédures stockées et des vues. Les fichiers journaux contiennent les informations nécessaires pour récupérer toutes les transactions de la base de données. Les fichiers de données peuvent être regroupés dans des groupes de fichiers à des fins 
 d'allocation et d'administration.   Les fichiers de données se situent généralement dans un répertoire enfant nommé « Data ». Par exemple, spécifiez C:\Program Files\Microsoft SQL Server\MSSQL{nn}.<nom_instance>\ comme chemin racine du répertoire de données des bases de données système durant la mise à niveau quand les fichiers de données se trouvent sous C:\Program Files\Microsoft SQL Server\MSSQL{nn}.<nom_instance>\MSSQL\Data.  
